@@ -1,13 +1,19 @@
-GET http://localhost:3000
+GET http://localhost:4000
 
 ### login Route
-POST http://localhost:3000/auth/login
+POST http://localhost:4000/auth/login
 
 ### Register Route
-POST http://localhost:3000/auth/register
+POST http://localhost:4000/auth/register
+Content-Type: application/json
+
+{
+  "email": "dmrfrht1@gmail.com",
+  "password": "12345"
+}
 
 ### refresh-token Route
-POST http://localhost:3000/auth/refresh-token
+POST http://localhost:4000/auth/refresh-token
 
 ### logout Route
-DELETE http://localhost:3000/auth/logout
+DELETE http://localhost:4000/auth/logout
