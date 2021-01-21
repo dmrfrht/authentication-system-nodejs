@@ -34,7 +34,4 @@ router.delete('/logout', async (req, res, next) => {
   res.send("logout route")
 })
 
-
-
-
 module.exports = router
