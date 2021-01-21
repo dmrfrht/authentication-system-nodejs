@@ -1,6 +1,6 @@
 const mongoose = require('mongoose')
 
-mongoose.connect('mongodb+srv://rootUser:0246813579@cluster0.u0j6u.mongodb.net/auth_system?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://rootUser:0246813579@cluster0.u0j6u.mongodb.net/auth_system?retryWrites=true&w=majority', { useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true })
   .then(() => {
     console.log('mongodb connected')
   })
