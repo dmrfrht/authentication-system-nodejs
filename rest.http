@@ -30,3 +30,8 @@ Content-Type: application/json
 
 ### logout Route
 DELETE http://localhost:4000/auth/logout
+Content-Type: application/json
+
+{
+  "refreshToken": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2MTEzNDYwNTQsImV4cCI6MTY0MjkwMzY1NCwiYXVkIjoiNjAwOWNjMzllZmUyOTAwYjIxODgzYzJhIiwiaXNzIjoicGlja3VycGFnZS5jb20ifQ.AenhrGs9uotD4S_JLYvbBK8YnRflxLSHuLoXD0Kl-Iw"
+}
